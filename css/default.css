@@ -1,82 +1,84 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
-    font-family: 'Quicksand', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif !important;
+  background-color: #f27183 !important;
+  color: white !important;
 }
 #main {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 div {
-    text-align: center;
-    line-height: 1.6;
+  text-align: center;
+  line-height: 1.6;
 }
 p {
-    margin: 0;
-    font-size: 1rem;
+  margin: 0;
+  font-size: 1rem;
 }
 #initialMenu {
-    font-size: 1rem;
-    margin: 0;
-    border-top: 0.0625rem solid lightgray;
+  font-size: 1rem;
+  margin: 0;
+  border-top: 0.0625rem solid lightgray;
 }
 #foodTitle {
-    font-size: 1.875rem;
-    padding-bottom: 0.625rem;
+  font-size: 1.875rem;
+  padding-bottom: 0.625rem;
 }
 input[type="number"] {
-    font-size: 0.75rem;
-    padding: 5px 0.75rem;
-    border: 0.0625rem solid lightgray;
-    transition: 0.5s;
-    border-radius: 0.25rem;
-    font-family: 'Quicksand', sans-serif;
+  font-size: 0.75rem;
+  padding: 5px 0.75rem;
+  border: 0.0625rem solid lightgray;
+  transition: 0.5s;
+  border-radius: 0.25rem;
+  font-family: "Quicksand", sans-serif;
 }
-input[type="number"]:hover{
-    border-color: black;    
+input[type="number"]:hover {
+  border-color: black;
 }
 input[type="text"] {
-    font-size: 0.75rem;
-    padding: 5px 0.625rem;
-    border: 0.0625rem solid lightgray;
-    transition: 0.5s;
-    border-radius: 0.25rem;
-    font-family: 'Quicksand', sans-serif;
+  font-size: 0.75rem;
+  padding: 5px 0.625rem;
+  border: 0.0625rem solid lightgray;
+  transition: 0.5s;
+  border-radius: 0.25rem;
+  font-family: "Quicksand", sans-serif;
 }
-input[type="text"]:hover{
-    border-color: black;    
+input[type="text"]:hover {
+  border-color: black;
 }
 input[type="button"] {
-    font-size: 0.75rem;
-    padding: 0.625rem 1rem;
-    border: 0.0625rem solid lightgray;
-    border-radius: 0.25rem;
-    transition: 0.5s;
-    background-color: white;
-    font-family: 'Quicksand', sans-serif;
+  font-size: 0.75rem;
+  padding: 0.625rem 1rem;
+  border: 0.0625rem solid lightgray;
+  border-radius: 0.25rem;
+  transition: 0.5s;
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
 }
 input[type="button"]:hover {
-    border-color: black;
+  border-color: black;
 }
 #nameDiv {
-    display: none;
-    font-size: 1rem;
-    border-top: 0.0625rem solid lightgray;
+  display: none;
+  font-size: 1rem;
+  border-top: 0.0625rem solid lightgray;
 }
 
 #nameSpot {
-    display: none;
+  display: none;
 }
 
 #placeSpot {
-    display: none;
+  display: none;
 }
 
 #placeForm {
-    display: none;
+  display: none;
 }
